@@ -1,0 +1,59 @@
+import random
+
+while true:
+flag = True
+While flag:
+	num=input(type anything to play: ')
+	
+	if num.isdigit():
+	print("There are 3 levels:easy, medium and Hard)
+	num = int(num)
+	flag = False
+else:
+	print('Invalid input! Try Again!)
+secret = random.randint(1,9)
+guess = none 
+count = 1
+While guess ! == secret:
+guess = input('Please press 1 for easy')
+
+def easyMode():
+     guessRange = random.randrange(1,10)
+     count = 1
+     totalCount = 6
+     while(count <= totalCount):
+          userInput = your normal input code
+          If(userInput == guessRange):
+                  print what you want the person to see
+                  break
+          else:
+                 print you guessed wrong
+                 print(f"you have {totalCount - count} guesses left")
+     print("Game Over")
+def mediumMode():
+     guessRange = random.randrange(1,20)
+     count = 1
+     totalCount = 4
+     while(count <= totalCount):
+          userInput = your normal input code
+          If(userInput == guessRange):
+                  print what you want the person to see
+                  break
+          else:
+                 print you guessed wrong
+                 print(f"you have {totalCount - count} guesses left")
+     print("Game Over")
+
+     def hardMode():
+     guessRange = random.randrange(1,50)
+     count = 1
+     totalCount = 3
+     while(count <= totalCount):
+          userInput = your normal input code
+          If(userInput == guessRange):
+                  print what you want the person to see
+                  break
+          else:
+                 print you guessed wrong
+                 print(f"you have {totalCount - count} guesses left")
+     print("Game Over")
